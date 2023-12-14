@@ -3,6 +3,7 @@ import Cards from '../Cards/Cards'
 import Table from '../Table/Table'
 import "./MainDash.css"
 // import { Table } from '@mui/material'
+// prabhakar
 
 const MainDash = () =>{
   return (
@@ -10,6 +11,7 @@ const MainDash = () =>{
       <h1>Dashboard</h1>
       <Cards/>
       <h2>Recent Orders</h2>
+      <h1>my name</h1>
       <Table/>
    </div>
   )
