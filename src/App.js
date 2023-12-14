@@ -1,9 +1,14 @@
-import './App.css'
-
-function App() {
+import "./App.css";
+import MainDash from "./component/MainDash/MainDash";
+import Sidebar from "./component/Sidebar/Sidebar";
+const App = () => {
   return (
     <div className="App">
-        Subscribe Zainkeepscode
+      <div className="AppGlass">
+     <Sidebar/>
+     <MainDash/>
+     <div></div>
+      </div>
     </div>
   );
 }
