@@ -11,7 +11,7 @@ const MainDash = () =>{
       <h1>Dashboard</h1>
       <Cards/>
       <h2>Recent Orders</h2>
-      <h1>my name</h1>
+      
       <Table/>
    </div>
   )
