@@ -39,8 +39,19 @@
 }
 
 
-/* @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
   .AppGlass{
-    background-color: blue;
+    /* background-color: blue; */
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
   }
-} */
+}
+
+@media screen and (max-width: 768px){
+  .AppGlass{
+    grid-template-columns: 1fr;
+  }
+  .AppGlass::-webkit-scrollbar{
+    display: none;
+  }
+}

@@ -100,3 +100,20 @@ font-size: 12px;
     .chartContainer{
         width: 70%;
     }
+
+    @media screen and (max-width: 1200px){
+        .ExpandedCard{
+            top: 2rem;
+            height: 70vh;
+            left: 6rem;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+     .ExpandedCard{
+        top: 8rem;
+        height: 50%;
+        left: 15px;
+        width: 80%;
+     }
+    }
