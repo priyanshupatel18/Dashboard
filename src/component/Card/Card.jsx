@@ -54,7 +54,7 @@ function CompactCard({ param, setExpanded }) {
 //expendedCard
 
 function ExpandedCard({ param, setExpanded }) {
-  const data = {
+    const data = {
     options: {
       chart: {
         type: "area",
@@ -65,17 +65,17 @@ function ExpandedCard({ param, setExpanded }) {
         enabled: false,
         enabledOnSeries: undefined,
         top: 0,
-        lefr: 0,
+        left: 0,
         blur: 3,
         color: "#000",
         opacity: 0.35,
       },
 
       fill: {
-        color: ["#fff"],
+        colors: ["#fff"],
         type: "gradient",
       },
-      dataLables: {
+      dataLabels: {
         enabled: false,
       },
       stroke: {

@@ -1,5 +1,6 @@
 import "./App.css";
 import MainDash from "./component/MainDash/MainDash";
+import RightSide from "./component/RightSide/RightSide";
 import Sidebar from "./component/Sidebar/Sidebar";
 const App = () => {
   return (
@@ -7,7 +8,8 @@ const App = () => {
       <div className="AppGlass">
      <Sidebar/>
      <MainDash/>
-     <div></div>
+     <RightSide/>
+     
       </div>
     </div>
   );
